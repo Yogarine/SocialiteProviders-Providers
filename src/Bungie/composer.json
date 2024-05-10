@@ -1,0 +1,33 @@
+{
+    "name": "socialiteproviders/bungie",
+    "description": "Bungie.net OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "keywords": [
+        "bungie",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "Alwin Garside",
+            "email": "alwin@garsi.de"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/socialiteproviders/providers/issues",
+        "source": "https://github.com/socialiteproviders/providers",
+        "docs": "https://socialiteproviders.com/bungie"
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\Bungie\\": ""
+        }
+    }
+}
